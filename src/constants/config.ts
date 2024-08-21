@@ -1,0 +1,1 @@
+export const SECOND_BEFORE_RESET = 5000;
