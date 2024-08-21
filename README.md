@@ -23,3 +23,12 @@ Install the dependencies and devDependencies and start the server.
 ### For Extra test
 
 - Navigate to path "/extra"
+
+### For running test
+
+- Open terminal
+- Run
+
+```shell
+npx cypress open
+```
