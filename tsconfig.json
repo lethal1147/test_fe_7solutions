@@ -26,6 +26,15 @@
     },
     "types": ["cypress"]
   },
-  "include": [".eslintrc.cjs", "src", "**/*.ts"],
+  "include": [
+    ".eslintrc.cjs",
+    "src",
+    "cypress",
+    "**/*.ts",
+    "cypress/e2e/**.cy.{js,ts,jsx,tsx}",
+    "cypress/e2e/**.cy.{js,ts,jsx,tsx}",
+    "cypress.d.ts",
+    "cypress/e2e/todoList.cy.tsx"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

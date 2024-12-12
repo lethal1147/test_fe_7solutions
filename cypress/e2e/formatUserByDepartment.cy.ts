@@ -1,5 +1,5 @@
-import { formatUserByDepartment } from "../../src/utils";
-import { UserType, FormattedUserByDepartmentType } from "../../src/types";
+import { formatUserByDepartment } from "@/utils";
+import { UserType, FormattedUserByDepartmentType } from "@/types";
 import MOCK_USERS from "../fixtures/users.json";
 
 describe("formatUserByDepartment", () => {

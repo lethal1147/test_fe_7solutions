@@ -3,7 +3,6 @@ import { useRef } from "react";
 
 export default function useReset(delay: number = SECOND_BEFORE_RESET) {
   const timeoutRef = useRef<Map<string, NodeJS.Timeout>>(new Map());
-  console.log(timeoutRef.current);
 
   function setTimeoutRef(key: string, callback: () => void) {
     timeoutRef.current.set(

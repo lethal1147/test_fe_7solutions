@@ -13,3 +13,7 @@
 .container-child-list {
   @apply p-3 flex flex-col gap-3 w-full;
 }
+
+.button {
+  @apply py-3 px-6 rounded-sm transition shadow-md;
+}

@@ -22,7 +22,7 @@ Install the dependencies and devDependencies and start the server.
 
 ### For Extra test
 
-- Navigate to path "/extra"
+- Navigate to path "/extra" by click the Extra button
 
 ### For running test
 
